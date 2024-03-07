@@ -1,0 +1,14 @@
+        .button {
+            -fx-color: #03e9f4;
+
+            -fx-webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+        }
+
+.button:hover{
+	-fx-text-fill : white;
+	-fx-effect: dropshadow(three-pass-box, cyan, 120, 0, 0, 15);
+} 
+
+.background {
+	-fx-background: black;
+}
